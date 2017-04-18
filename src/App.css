@@ -1,0 +1,62 @@
+#container {
+  margin:auto;
+  border:1px solid #ccc;
+  padding:0px;
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  background-image:linear-gradient(to bottom, rgb(0,0,0), rgb(35,0,0));
+}
+.grid div {
+  margin:20px;
+  display:flex;
+  align-items: flex-end;
+  height: 2000px;
+}
+.mainheading,{
+  text-align:center;
+  padding:10px;
+  margin:0px;
+}
+.mainheading {
+  background:#444;
+  color:#eee;
+}
+.nav {
+  width:800px;
+  margin-left:50px;
+}
+.nav a {
+  display: block;
+  margin:20px 0;
+  color:black;
+  font-size: 100px;
+  background-color: grey;
+  margin-top: 100px;
+  text-align: center;
+}
+.grid1 div {
+  margin:100px;
+}
+.albumPage {
+  background-image:linear-gradient(to bottom, rgb(0,0,0), rgb(2,19,35))
+}
+.photoview {
+  background-image:linear-gradient(to bottom, rgb(0,0,0), rgb(36,30,32))
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
